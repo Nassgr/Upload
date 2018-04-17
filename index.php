@@ -45,10 +45,10 @@ if(!empty($_FILES)) {
 $directory = 'upload/';
 $listUpload = new FilesystemIterator($directory);
 
-if (file_exists("upload/" . $_POST['delete'])) {
-    unlink("upload/" . $_POST['delete']);
-    header('Location: index.php');
-}
+//if (file_exists("upload/" . $_POST['delete'])) {
+  //  unlink("upload/" . $_POST['delete']);
+    //header('Location: index.php');}
+
 
 ?>
 
